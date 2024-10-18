@@ -1,0 +1,14 @@
+1$ git clone [ssh-url] [folder-name]
+2$ cd [folder-name]
+1 $ git checkout -b [new-feature]
+1$ git add
+2$ git commit -m «information added in readme»
+3$ git checkout master
+$ git branch
+* master
+readme
+$ git remote -v origin git@github.com:[forked-repoowner-username]/[repo-name].git
+(fetch)
+origin git@github.com:[forked-repo-ownerusername]/[repo-name].git
+(push)
+$ git push origin readme
